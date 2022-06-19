@@ -12,11 +12,12 @@ header{
    
 }
 header a{
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 29px;
     text-decoration: none;
-    color:black;
+    color: rgb(108, 108, 108);
     margin-right: 23px;
 }
 h1 {
@@ -24,20 +25,36 @@ h1 {
     font-size: 48px;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(108, 108, 108);
 
 }
 
 img {
-    margin-left: 300px;
+    display: block;
+    margin: 0px auto;
 }
+.chamada{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .endereço{
     text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.icones div a {
+.icones  {
     display: flex;
-    justify-content:space-around ;   
+    align-items: center;
+    justify-content: center;
+     
 }
 .icones a img{
     max-width: 40px;
-    
+    margin: 10px;
+     
 } 
