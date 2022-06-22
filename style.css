@@ -19,6 +19,7 @@ header a{
     text-decoration: none;
     color: rgb(108, 108, 108);
     margin-right: 23px;
+    cursor: pointer;
 }
 h1 {
     text-align: center;
