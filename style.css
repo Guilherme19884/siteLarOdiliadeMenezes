@@ -17,26 +17,48 @@ header a{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 29px;
     text-decoration: none;
-    color: rgb(108, 108, 108);
+    color: white;
     margin-right: 23px;
     cursor: pointer;
 }
+body {
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
 h1 {
     text-align: center;
     font-size: 48px;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(108, 108, 108);
+    color: white
 
+}
+
+section{
+    display: inline-block;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: 150px auto auto 130px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.334);
+}
+h2 {
+    margin: 10px;
+    text-align: center;
+}
+img .imgIdoso{
+    display: inline-block;
 }
 
 img {
     display: block;
-    margin: 0px auto;
+    margin: 50px auto;
 }
 .chamada{
     text-align: center;
-    color: gray;
+    color: white;
     font-size: 25px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -44,7 +66,7 @@ img {
 
 .endereço{
     text-align: center;
-    color: gray;
+    color: white;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
